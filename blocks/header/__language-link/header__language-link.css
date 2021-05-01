@@ -1,0 +1,15 @@
+.header__language-link {
+  color: #FFFFFF;
+  list-style: none;
+  margin: 0 18px 0 0;;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__language-link:hover {
+  text-decoration: underline;
+}
