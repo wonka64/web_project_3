@@ -1,0 +1,15 @@
+.lead__image {
+  width: calc(100% - 296px);
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: calc(100% - 96px)
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+  }
+}
