@@ -11,6 +11,10 @@
   transition: opacity 0.3s ease-in-out;
 }
 
+.header__language-link:last-child {
+  margin: 0;
+}
+
 .header__language-link:hover {
   text-decoration: underline;
   opacity: 0.8;
