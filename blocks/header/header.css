@@ -4,13 +4,27 @@
   align-items: flex-end;
   width: 100%;
   padding-top: 34px;
-  margin: 0 auto;
+  margin: 0 0 0 0;
   max-width: 984px;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .header {
+    max-width: 288px;
     padding-top: 20px;
   }
 }
