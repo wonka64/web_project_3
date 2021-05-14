@@ -2,13 +2,15 @@
   font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: normal;
+  font-style: normal;
   line-height: 20px;
   letter-spacing: 0.2em;
   color: #AAAAAA;
-  padding: 0 0 12px 0;
+  margin: 0;
+  padding: 0 0 4px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:) {
   .place__url-heading {
     line-height: 12px;
   }
