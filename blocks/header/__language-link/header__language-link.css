@@ -19,3 +19,9 @@
   text-decoration: underline;
   opacity: 0.8;
 }
+
+@media screen and () {
+  .header__language-link {
+    font-size: 18px;
+  }  
+}
