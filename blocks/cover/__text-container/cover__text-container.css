@@ -1,5 +1,5 @@
 .cover__text-container {
-  position: relative;
-  text-align: center;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
