@@ -10,7 +10,7 @@
   padding: 0 0 4px 0;
 }
 
-@media screen and (max-width:) {
+@media screen and (max-width: 768px) {
   .place__url-heading {
     line-height: 12px;
   }
