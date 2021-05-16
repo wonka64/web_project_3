@@ -8,9 +8,10 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
   <body class="page">
+    <div class="page__container">
 
     <!-- 1. HEADER BLOCK -->
-    <header class="header">
+    <header class="header container container__narrow">
       <img class="header__logo" src="images/logo.svg" alt="The USA Logo"/>
       <ul class="header__language-list">
         <li class="header__language-link"><a class="header__link header__link_active" href="#">En</a></li>
@@ -18,15 +19,18 @@
       </ul>
     </header>
 
-    <!-- 2. LEAD BLOCK -->
     <main class="content">
+
+      <!-- 2. LEAD BLOCK -->
       <section class="lead">
-        <h1 class="lead__title">
-          From Portland to Portland
-        </h1>
-        <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img class="lead__image" src="images/lead-mountains.jpg" alt="Wilderness and Mountains"/>
-        <p class="lead__caption">Your journey starts here</p>
+        <div class="lead__text-container container container__narrow">
+          <h1 class="lead__title">From Portland to Portland</h1>
+          <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+        </div>
+        <div class="lead__image-container">
+          <img class="lead__image" src="images/lead-mountains.jpg" alt="Wilderness and Mountains"/>
+          <p class="lead__caption container container__narrow">Your journey starts here</p>
+        </div>
       </section>
 
       <!-- 3. INTRO BLOCK -->
@@ -156,5 +160,6 @@
         </nav>
         <p class="footer__copyright">&copy; 2021. William Wonka</p>
     </footer>
+  </div>
   </body>
 </html>
