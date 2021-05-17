@@ -7,3 +7,9 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 440px) {
+  .header {
+    padding-top: 20px;
+  }
+}
