@@ -2,13 +2,13 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .container {
     padding: 0 24px;
   }  
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 4400px) {
   .container {
     padding: 0 16px;
   }
