@@ -1,21 +1,21 @@
-.container__narrow {
+.container_narrow {
   padding: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
-  .container__narrow {
+  .container_narrow {
     padding: 0 48px;
   }  
 }
 
 @media screen and (max-width: 780px) {
-  .container__narrow {
+  .container_narrow {
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .container__narrow {
+  .container_narrow {
     padding: 0 16px;
   }
 }
