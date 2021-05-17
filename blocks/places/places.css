@@ -2,14 +2,14 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .places {
     padding-bottom: 89px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .places {
-    padding-bottom: 64px;
+    padding: 0 0 64px 0;
   }
 }
